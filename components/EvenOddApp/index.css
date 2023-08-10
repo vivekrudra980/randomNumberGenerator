@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.container {
+  width: 60vw;
+  height: 80vh;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+}
+.button {
+  height: 36px;
+  width: 140px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: white;
+}
